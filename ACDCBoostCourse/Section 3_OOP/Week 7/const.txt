@@ -1,0 +1,13 @@
+const int val ==> val의 값을 수정할 수 없다.
+
+const int* val ==> val(주소값)의 값은 수정할 수 있으나, val이 가르키는 데이터는 수정이 불가능하다.
+
+int* const val ==> val(주소값)은 수정이 불가능하지만, val이 가르키는 데이터값은 수정가능하다.
+
+const int* const val ==> val(주소값)과 val이 가리키는 데이터 둘다 수정이 불가능하다.
+
+const int func (int a) {} ==> 이 함수가 반환하는 값이 수정이 불가능하다.
+
+int func (const int a) {} ==> 함수에 대입되는 변수의 값이 수정 불가능하다.
+
+int func (int a) const {} ==> 함수 내용내의 멤버 변수값이 수정 불가능하다.

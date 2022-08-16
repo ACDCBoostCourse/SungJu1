@@ -1,0 +1,6 @@
+private 제한자를 이용해 상속을 할 경우에는 부모클래스내의  private 멤버뿐만 아니라 public, protected 멤버들도 모두 private 멤버가 되어 상속이되고
+
+protected 제한자를 이용해 상속을 할 경우엔 private는 그대로 유지되고 public 멤버들이 protected 멤버가 되어 상속된다.
+단 private와는 다르게 외부에서는 접근할 수는 없지만 상속된 자식 클래스 내에서는 접근이 가능하다.
+
+public 제한자를 이용해 상속을 할 경우엔 그대로 public 멤버들만 접근이 가능하고 나머지멤버들은 접근이 불가능하다.
